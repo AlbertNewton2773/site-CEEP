@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .skills, .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .skill, .project {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .skill h3, .project h3 {
+            margin: 0 0 10px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Meu Portifólio</h1>
+        <p>Bem-vindo ao meu site! Conheça um pouco mais sobre mim e meu trabalho.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <div class="container">
+            <img src="../imagens/perfil.jpg">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Kaio Rezende. Sou Programador Junior, e tenho experiência em Html, Css, hp, Myqsl e JavaScript. Ao longo da minha carreira, desenvolvi projetos que me ajudaram a crescer e a aperfeiçoar minhas habilidades. Sou uma pessoa focada e centrada, que gosta de xadrez e jogos envolvendo a lógica, por isso decidi seguir essa profissão.</p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Experiência em HTML, CSS, JavaScript e frameworks como React e Vue.js.</p>
+                </div>
+                <div class="skill">
+                    <h3>Design de Interfaces</h3>
+                    <p>Criação de interfaces amigáveis e funcionais com ferramentas como Figma e Adobe XD.</p>
+                </div>
+                <div class="skill">
+                    <h3>Gestão de Projetos</h3>
+                    <p>Gestão de equipes e projetos utilizando metodologias ágeis como Scrum e Kanban.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Meu Portfólio | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
